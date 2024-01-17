@@ -1,0 +1,211 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  font-family: urbanist;
+  margin: 0;
+  padding: 0;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: urbanist;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+a{
+  text-decoration: none;
+}
+.section{
+  width: 80vw;
+  margin: 0 10% 0;
+  
+}
+.top{
+  width: 80vw;
+  height: 180px;
+  padding: 0 ;
+}
+.top img{
+  margin: 0;
+  padding: 0;
+}
+.bd{
+  margin-top: 140px;
+}
+.rcdexam{
+  width: 80vw;
+  height: 269px;
+  margin: 30px 0px;
+}
+.rcexam{
+  width: 80vw;
+  height: 325px;
+  margin: 50px 0px;
+}
+.lnk{
+  justify-content: space-between;
+}
+.rcexam ul{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  height: 36px;
+}
+.rcexam ul li{
+  margin: 0 0 0 20px;
+}
+.rcexam ul li .btn{
+  border-radius: 20px;
+}
+.cards{
+  /* width: 2540px; */
+  height: 230px;
+}
+
+.card{
+  width: 300px;
+  height: 230px;
+  border-radius: 10px;
+  padding: 5px 4px;
+}
+.card-body{
+  width: 280px;
+  height: 190px;
+  margin: 5px 4px;
+  border-radius: 10px;
+}
+.card-head{
+  height: 40px;
+}
+.card-head img{
+  width: 50px;
+  height: 50px;
+  border: 0.2px thick lightslategray ;
+  border-radius: 10px;
+}
+.card-head h{
+  margin: 0 20px 0;
+  font-family: urbanist;
+  font-size: 16px;
+  font-weight: 600;
+}
+.card-head h span{
+  color: gray;
+  font-family: urbanist;
+  font-size: 12px;
+  font-weight: 500;
+}
+.card-containt{
+  margin: 0px 0 0 60px;
+
+}
+.card-containt h{
+  font-family: urbanist;
+  font-size: 14px;
+  font-weight: 500;
+}
+.card-containt h2{
+  font-family: urbanist;
+  font-size: 12px;
+  border: 1px solid #9E9E9E;
+  color: #9E9E9E;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 8px 10px;
+  margin: 10px 0;
+}
+.card-containt p{
+  font-family: urbanist;
+  font-size: 10px;
+  font-weight: 600;
+}
+.card-containt i{
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+i img{
+  width: 20px;
+  height: 20px;  
+}
+.footer{
+  margin: 0;
+  background-color: #9E9E9E;
+}
+.footer-menu{
+  list-style: none;
+}
+.footer-menu a{
+  color: #282c34;
+}
+.row{
+  height: auto;
+  margin-bottom: 10px;
+}
+.right{
+  margin-right: 10px;
+  padding: 10px;
+}
+.right-1{
+  margin: 20px 0;
+  border-radius: 10px;
+  box-shadow:  1px #282c34;
+  border: 1px  solid #000;
+
+}
+.right-1 hr{
+  margin-top: 10px;
+}
+.right-1 .card-head{
+  border-radius: 10px;
+}
+.right-1 .col{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.right-1 a{
+  border-radius: 20px;
+}
+.right-2{
+  margin: 20px 0;
+  border-radius: 10px;
+  box-shadow:  1px #282c34;
+  border: 1px  solid #000;
+}
+.left{
+  margin: 20px 0;
+  margin-left: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px  solid #000;
+
+}
+.left .btn{
+  border-radius: 20px;
+  text-align: center;
+}
